@@ -1,0 +1,299 @@
+function OnEvent(event, arg)
+	if (event == "MOUSE_BUTTON_RELEASED" and arg == 9) then
+
+		if (not IsKeyLockOn("capslock")) then
+			PressKey("capslock")
+			Sleep(5)
+			ReleaseKey("capslock")
+
+		end
+  wish5()
+	end
+end
+
+function wish5()
+	delay=150;
+	x,y=0,0;
+    up=91;
+    down=103;
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+    for i=1,5,1 do
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,1,1,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,-1,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+
+        x,y=wishmove(x,y,-2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,0,delay,up,down);
+        x,y=wishmove(x,y,-2,1,delay,up,down);
+        x,y=wishmove(x,y,2,-2,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,2,1,delay,up,down);
+
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,1,1,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,-1,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+
+    end
+    for i=1,2,1 do
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,0,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,1,delay,up,down);
+        x,y=wishmove(x,y,1,1,delay,up,down);
+
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,0,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+    end
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+	x,y=wishmove(x,y,0,-2,delay,up,down);
+	x,y=wishmove(x,y,0,0,delay,up,down);
+	x,y=wishmove(x,y,0,1,delay,up,down);
+
+end
+
+function wish4()
+	delay=150;
+	x,y=0,0;
+    up=90;
+    down=120;
+    for i=1,6,1 do
+        x,y=wishmove(x,y,-2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,0,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,-2,1,delay,up,down);
+        x,y=wishmove(x,y,2,1,delay,up,down);
+
+        x,y=wishmove(x,y,-2,-1,delay,up,down);
+        x,y=wishmove(x,y,-2,0,delay,up,down);
+        x,y=wishmove(x,y,-1,1,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,1,1,delay,up,down);
+        x,y=wishmove(x,y,2,-1,delay,up,down);
+        x,y=wishmove(x,y,2,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,-2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+        x,y=wishmove(x,y,-1,0,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,-2,1,delay,up,down);
+        x,y=wishmove(x,y,2,1,delay,up,down);
+    end
+
+    PressAndReleaseKey("r")
+    Sleep(2500)
+
+    up=96;
+    down=112;
+    for i=1,3,1 do
+        x,y=wishmove(x,y,1,-2,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-2,delay,up,down);
+        x,y=wishmove(x,y,-2,-2,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,2,1,delay,up,down);
+
+    end
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+	x,y=wishmove(x,y,1,-2,delay,up,down);
+	x,y=wishmove(x,y,0,-2,delay,up,down);
+	x,y=wishmove(x,y,-1,-2,delay,up,down);
+
+	x,y=wishmove(x,y,-2,-1,delay,up,down);
+	x,y=wishmove(x,y,-2,0,delay,up,down);
+	x,y=wishmove(x,y,-2,1,delay,up,down);
+	x,y=wishmove(x,y,-1,0,delay,up,down);
+	x,y=wishmove(x,y,1,-1,delay,up,down);
+	x,y=wishmove(x,y,2,0,delay,up,down);
+	x,y=wishmove(x,y,2,-1,delay,up,down);
+	x,y=wishmove(x,y,2,-2,delay,up,down);
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+
+end
+
+
+function wish9()
+	delay=150;
+	x,y=0,0;
+	delay2=600;
+    up=92;
+    down=105;
+    for i=1,2,1 do
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,1,-1,delay,up,down);
+    Sleep(delay2);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+    Sleep(delay2);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,-1,-1,delay,up,down);
+    Sleep(delay2);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+            x,y=wishmove(x,y,-1,0,delay,up,down);
+    Sleep(delay2);
+        x,y=wishmove(x,y,1,0,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+    Sleep(delay2);
+    end
+    x,y=wishmove(x,y,1,0,delay,up,down);
+    Sleep(delay2+300);
+    x,y=wishmove(x,y,1,0,delay,up,down);
+    Sleep(delay2+300);
+    x,y=wishmove(x,y,1,0,delay,up,down);
+    Sleep(delay2+300);
+    x,y=wishmove(x,y,1,0,delay,up,down);
+end
+
+function wish2()
+	delay=150;
+    x,y=0,0;
+    up=92;
+    down=105;
+    for i=1,2,1 do
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,-2,-2,delay,up,down);
+        x,y=wishmove(x,y,-2,-1,delay,up,down);
+            x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+         x,y=wishmove(x,y,2,1,delay,up,down);
+        x,y=wishmove(x,y,-2,0,delay,up,down);
+        x,y=wishmove(x,y,-2,1,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+        x,y=wishmove(x,y,2,-2,delay,up,down);
+        x,y=wishmove(x,y,2,-1,delay,up,down);
+            x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+        x,y=wishmove(x,y,0,-1,delay,up,down);
+        x,y=wishmove(x,y,0,-2,delay,up,down);
+
+        x,y=wishmove(x,y,2,0,delay,up,down);
+        x,y=wishmove(x,y,2,1,delay,up,down);
+        x,y=wishmove(x,y,0,1,delay,up,down);
+        x,y=wishmove(x,y,0,0,delay,up,down);
+    end
+    Sleep(50)
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+	x,y=wishmove(x,y,0,-2,delay,up,down);
+	x,y=wishmove(x,y,-2,-2,delay,up,down);
+	x,y=wishmove(x,y,-2,-1,delay,up,down);
+	x,y=wishmove(x,y,0,1,delay,up,down);
+	x,y=wishmove(x,y,0,0,delay,up,down);
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+	x,y=wishmove(x,y,0,-2,delay,up,down);
+	x,y=wishmove(x,y,2,-2,delay,up,down);
+	x,y=wishmove(x,y,2,-1,delay,up,down);
+	x,y=wishmove(x,y,2,0,delay,up,down);
+	x,y=wishmove(x,y,2,1,delay,up,down);
+	x,y=wishmove(x,y,0,1,delay,up,down);
+	x,y=wishmove(x,y,0,0,delay,up,down);
+	x,y=wishmove(x,y,0,-1,delay,up,down);
+	x,y=wishmove(x,y,0,-2,delay,up,down);
+	x,y=wishmove(x,y,-2,-2,delay,up,down);
+	x,y=wishmove(x,y,-2,-1,delay,up,down);
+
+
+end
+
+function wishmove(x0,y0,x,y,delay,up,down)
+    local xd=x-x0;
+    local yd=y-y0;
+    local x1=x0;
+    local y1=y0;
+    local min0=math.min(math.abs(xd),math.abs(yd));
+    local max0=math.max(math.abs(xd),math.abs(yd));
+    nmove=126;
+    n2moveup=up;
+    n2movedown=down;
+    for i=1,min0,1 do
+        local x11=x1+xd/math.abs(xd);
+        local y11=y1+yd/math.abs(yd);
+        if (y1==-2 and y11~=-2)
+        then
+            MoveMouseRelative(nmove*xd/math.abs(xd),n2movedown*yd/math.abs(yd));
+        elseif (y11==-2 and y1~=-2)
+        then
+            MoveMouseRelative(nmove*xd/math.abs(xd),n2moveup*yd/math.abs(yd));
+        elseif (y11==-2 and y1==-2)
+        then
+            MoveMouseRelative(nmove*xd/math.abs(xd),n2moveup*yd/math.abs(yd));
+        else
+            MoveMouseRelative(nmove*xd/math.abs(xd),nmove*yd/math.abs(yd));
+        end
+        x1=x1+xd/math.abs(xd);
+        y1=y1+yd/math.abs(yd);
+        Sleep(2);
+    end
+    for i=1,(max0-min0),1 do
+        local x11=x1+xd/math.abs(xd);
+        local y11=y1+yd/math.abs(yd);
+        if (y1==-2 and y11~=-2)
+        then
+            MoveMouseRelative(notzero(math.abs(xd)-min0)*nmove*xd/math.abs(xd),notzero(math.abs(yd)-min0)*n2movedown*yd/math.abs(yd));
+        elseif (y11==-2 and y1~=-2)
+        then
+            MoveMouseRelative(notzero(math.abs(xd)-min0)*nmove*xd/math.abs(xd),notzero(math.abs(yd)-min0)*n2moveup*yd/math.abs(yd));
+        elseif (y11==-2 and y1==-2)
+        then
+            MoveMouseRelative(notzero(math.abs(xd)-min0)*nmove*xd/math.abs(xd),notzero(math.abs(yd)-min0)*n2moveup*yd/math.abs(yd));
+        else
+            MoveMouseRelative(notzero(math.abs(xd)-min0)*nmove*xd/math.abs(xd),notzero(math.abs(yd)-min0)*nmove*yd/math.abs(yd));
+        end
+        x1=x1+xd/math.abs(xd);
+        y1=y1+yd/math.abs(yd);
+        Sleep(2);
+    end
+    Sleep(delay);
+    PressAndReleaseMouseButton(1)
+    return x,y
+end
+function notzero(a)
+    if a==0
+    then
+        return 0;
+    else
+        return 1;
+    end
+end
